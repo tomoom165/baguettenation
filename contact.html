@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Contact</title>
+<meta name="description" content="An Ecommerce site for a local french baguette bakery">
+<meta name="generator" content="WYSIWYG Web Builder 19 Trial Version - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="fontawesome6.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&display=swap" rel="stylesheet">
+<link href="Untitled11.css" rel="stylesheet">
+<link href="contact.css" rel="stylesheet">
+<script src="jquery-3.7.1.min.js"></script>
+<script src="jquery.ui.effect.min.js"></script>
+<script src="wwb19.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("a[href*='#headerLayoutGrid']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_headerLayoutGrid').offset().top }, 600, 'easeOutCirc');
+   });
+});
+</script>
+</head>
+<body class="wb-theme-content">
+<div id="wb_headerLayoutGrid">
+<div id="headerLayoutGrid">
+<div class="col-1">
+<div id="wb_headerIcon" style="display:inline-block;width:30px;height:30px;text-align:center;z-index:0;" class="wb-theme-content">
+<div id="headerIcon"><i class="fa fa-globe"></i></div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_headerMenu" style="display:block;width:100%;z-index:1;">
+<label class="toggle" for="headerMenu-submenu" id="headerMenu-title">Menu<span id="headerMenu-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+<input type="checkbox" id="headerMenu-submenu">
+<ul class="headerMenu" id="headerMenu" role="menu">
+<li role="menuitem"><a href="./index.html" title="Home" class="nav-link"><i class="fa fa-home"></i><br>Home</a></li>
+<li role="menuitem"><a href="./about.html" title="About" class="nav-link"><i class="fa fa-regular fa-id-card"></i><br>About</a></li>
+<li role="menuitem"><a href="./contact.html" title="Contact" class="active"><i class="fa fa-envelope"></i><br>Contact</a></li>
+<li role="menuitem"><a href="./products.html" title="Products" class="nav-link"><i class="fa fa-tag"></i><br>Products</a></li>
+<li role="menuitem"><a href="./team.html" title="Team" class="nav-link">Team</a></li>
+<li role="menuitem"><a href="./testimonials.html" title="Testimonials" class="nav-link"><i class="fa fa-comments"></i><br>Testimonials</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+<div id="wb_heroLayoutGrid" class="wb-theme-header">
+<section id="heroLayoutGrid">
+<div class="row">
+<div class="col-1">
+<div id="wb_heroHeading2" style="display:block;width:100%;z-index:2;">
+<h2 id="heroHeading2" class="wb-theme-header">Baguette Nation</h2>
+</div>
+<div id="wb_heroHeading1" style="display:block;width:100%;z-index:3;">
+<h1 id="heroHeading1" class="wb-theme-header">Contact</h1>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div id="wb_contactLayoutGrid2">
+<div id="contactLayoutGrid2">
+<div class="row">
+<div class="col-1">
+</div>
+<div class="col-2">
+<label for="heroHeading1" id="contactLabel1" style="display:block;width:100%;line-height:16px;z-index:4;">Name</label>
+<input type="text" id="contactName" style="display:block;width: 100%;height:41px;z-index:5;" name="name" value="" spellcheck="false">
+<label for="heroHeading2" id="contactLabel2" style="display:block;width:100%;line-height:16px;z-index:6;">Email</label>
+<input type="text" id="contactEmail" style="display:block;width: 100%;height:42px;z-index:7;" name="email" value="" spellcheck="false">
+<label for="" id="contactLabel4" style="display:block;width:100%;line-height:16px;z-index:8;">Message</label>
+<textarea name="message" id="contactMessage" style="display:block;width: 100%;;height:97px;z-index:9;" rows="4" cols="73" autocomplete="off" spellcheck="false"></textarea>
+<div id="wb_contactUpdates" style="display:inline-block;width:58px;height:26px;z-index:10;">
+<input type="checkbox" role="switch" name="" id="contactUpdates" value="" checked>
+<label id="contactUpdates-label" for="contactUpdates">
+<span id="contactUpdates-inner"></span>
+<span id="contactUpdates-switch"></span>
+</label>
+</div>
+<label for="" id="contactLabel5" style="display:inline-block;width:426px;line-height:16px;z-index:11;">Please send product updates and offers via email.</label>
+<hr id="contactSpacer" style="display:block;width: 100%;z-index:12;">
+<input type="submit" id="contactButton" onclick="AnimationResume('contactButton');return false;" name="" value="Submit" style="display:inline-block;width:140px;height:42px;z-index:13;">
+<div id="wb_Text1">
+<span style="color:#FFFFFF;font-family:Arial;font-size:16px;">NOTE: If you are a disgruntled french scientist, please contact our legal dept.</span>
+</div>
+</div>
+<div class="col-3">
+</div>
+</div>
+</div>
+</div>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb19.png" alt="WYSIWYG Web Builder" style="position:absolute;left:441px;top:2467px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+<div id="wb_wwbFooter">
+<div id="wwbFooter">
+<div class="row">
+<div class="col-1">
+<div id="wb_wwbFooterImage" style="display:block;width:100%;height:auto;z-index:15;">
+<img src="images/wwb-signature-small.png" id="wwbFooterImage" alt="" width="940" height="412">
+</div>
+<div id="wb_wwbFooterText1">
+<span style="color:#FFFFFF;font-family:'Open Sans';font-size:19px;">Made with</span>
+</div>
+<div id="wb_wwbFooterIcon" style="display:inline-block;width:30px;height:30px;text-align:center;z-index:17;" class="wb-theme-content">
+<div id="wwbFooterIcon"><i class="fa fa-regular fa-heart"></i></div>
+</div>
+<div id="wb_wwbFooterText2">
+<span style="color:#FFFFFF;font-family:'Open Sans';font-size:19px;">by the WYSIWYG Web Builder Team</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
